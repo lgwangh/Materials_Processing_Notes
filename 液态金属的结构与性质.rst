@@ -28,7 +28,7 @@
 
 - 偶分布函数 :math:`g(r)=\frac{\rho(r)}{\rho_0}` ，表示液体中存在相距为r的原子对的几率。其中 :math:`\rho(r)` 表示距参考原子r的原子数密度。
 - 平均原子间距 :math:`r_1` 对应 g(r)第一峰的位置，表示参考原子至周围第一配位层的平均原子间距。
-- 径向分布函数 :math:`RDF=4\pi r^2\rho_0 g(r)` 表示参考原子r的球壳元中的原子数
+- 径向分布函数 :math:`\mathit{RDF}=4\pi r^2\rho_0 g(r)` 表示参考原子r的球壳元中的原子数
 - 配位数 :math:`N_1=\int_{r_0}^{r_m}4\pi r^2\rho_0 g(r)\mathrm{d}r` ，表示参考原子附近第一壳层的原子数。
   
 熔化时的结构变化
@@ -51,9 +51,9 @@
 
 .. math::
 
-	动力粘度\eta=\frac{F_x}{A\frac{\mathrm{d}v_x}{\mathrm{d}y}}\\
-	运动粘度\upsilon=\frac{\eta}{\rho}\\
-	外力较大时使用\upsilon，较小时使用\eta
+	&动力粘度\eta=\frac{F_x}{A\frac{\mathrm{d}v_x}{\mathrm{d}y}}\\
+	&运动粘度\upsilon=\frac{\eta}{\rho}\\
+	&外力较大时使用\upsilon，较小时使用\eta
 
 影响因素
 ++++++++
@@ -103,7 +103,7 @@
 
 .. math::
 	
-	润湿角 \cos\theta=\frac{\sigma_{SG}-\sigma{SL}}{\sigma_{LG}}
+	润湿角 \cos\theta=\frac{\sigma_{SG}-\sigma_{SL}}{\sigma_{LG}}
 
 润湿角越小，润湿性越好。界面能越小，润湿角越小。 
 
