@@ -49,7 +49,7 @@
 界面类型判据
 ++++++++++++
 
-单个原子向界面上沉积的自由能变 :math:`\frac{\Delta F_s}{NkT_m}` 与界面固相原子占据率 :math:`x` 的关系曲线形态由 :math:`\alpha=\frac{\Delta H_m}{kT_m}(\frac{\eta}{\nu})` 决定，其中 :math:`\eta` 为表面配位数， :math:`\nu` 为内部配位数。
+单个原子向界面上沉积的自由能变 :math:`\frac{\Delta F_s}{Nk_BT_m}` 与界面固相原子占据率 :math:`x` 的关系曲线形态由 :math:`\alpha=\frac{\Delta H_m}{k_BT_m}(\frac{\eta}{\nu})` 决定，其中 :math:`\eta` 为表面配位数， :math:`\nu` 为内部配位数。
 
 -  :math:`\alpha\le 2` ，曲线最小值在 :math:`x=0.5` ，形成粗糙界面。
 -  :math:`\alpha\ge 5` ，曲线最小值在两端，形成光滑界面。

@@ -6,7 +6,7 @@
 
 三维铸件可近似认为是一维热传导。假设铸件凝固区间很小、不考虑结晶潜热、物理参数不随温度变化、无界面热阻，则： 
 
-设铸件起始温度为 :math:`T_{10}` ，密度 :math:`\rho_1` ，热导率 :math:`\lambda_1` ，体积比热容 :math:`c_1` ，热扩散率 :math:`a_1=\frac{\lambda_1}{\rho_1 c_{p1}}` ；铸型相应有 :math:`T_{20},\rho_2,\lambda_2,c_2,a_2` ，则 :math:`t` 时刻铸件侧 :math:`x` 位置温度分布为：
+设铸件起始温度为 :math:`T_{10}` ，密度 :math:`\rho_1` ，热导率 :math:`\lambda_1` ，体积比热容 :math:`c_1` ，热扩散率 :math:`a_1=\frac{\lambda_1}{\rho_1 c_1}` ；铸型相应有 :math:`T_{20},\rho_2,\lambda_2,c_2,a_2` ，则 :math:`t` 时刻铸件侧 :math:`x` 位置温度分布为：
 
 .. math::
 
