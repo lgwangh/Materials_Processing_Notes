@@ -60,9 +60,9 @@
 
 .. math::
 	
-	&原子迁移系数和扩散系数分别为q=\frac{D}{k_B T}和D=\frac{\delta^2}{2\tau_0}\exp \frac{U}{k_B T}\\
+	&原子迁移系数和扩散系数分别为q=\frac{D}{k_B T}和D=\frac{\delta^2}{2\tau_0}\exp (-\frac{U}{k_B T})\\
 	&其中\delta为相邻原子平衡位置的平均距离，U为原子离位激活能\\
-	&\eta=\frac{1}{q\delta}=\frac{2\tau k_B T}{\delta^3}\exp \frac{U}{k_B T}
+	&\eta=\frac{1}{q\delta}=\frac{2\tau k_B T}{\delta^3}\exp (\frac{U}{k_B T})
 
 关键在于\ **团簇越大，粘度越高**\ 。随温度升高，η先降后升；随结合能升高，η指数上升；随原子间距增大，η下降。
 
@@ -150,7 +150,7 @@
 
 在凝固时，溶解度骤降。 
 
-杂质在上浮过程中受到粘滞阻力，对于球体颗粒，其上浮速度 :math:`V=\frac{2}{9}\frac{(\rho_m-\rho_B)gr^2}{\eta}` ，其中 :math:`\rho_B` 为杂质密度， :math:`r` 为颗粒半径。
+杂质在上浮过程中受到粘滞阻力，对于球体颗粒，其上浮速度满足 Stokes 上浮公式 :math:`V=\frac{2}{9}\frac{(\rho_m-\rho_B)gr^2}{\eta}` ，其中 :math:`\rho_B` 为杂质密度， :math:`r` 为颗粒半径。
 
 凝固中的体积收缩
 ++++++++++++++++
