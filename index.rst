@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-一起来学材料加工原理吧！
-========================
+一起来学材料加工原理吧（〃｀ 3′〃）
+===================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: 目录:
 
    绪论.rst
