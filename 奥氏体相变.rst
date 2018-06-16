@@ -54,7 +54,7 @@
 
 其中 :math:`C,K` 为常数， :math:`Q` 为扩散激活能， :math:`\bar{D}_c^\gamma` 为碳在奥氏体中扩散系数， :math:`\frac{\mathrm{d}C}{\mathrm{d}x}` 为相界面处奥氏体中碳的浓度梯度， :math:`\Delta C_B` 为新旧相界面两侧碳浓度差，形核功 :math:`W` 取决于界面能 :math:`\sigma` 和新旧相单位体积自由能差 :math:`\Delta G_v` ： 
 
-.. math:: W=C'\frac{\sigma^3}{\Delta G_v^2}
+.. math:: W=\frac{C'\sigma^3}{\Delta G_v^2}
 
 可以将等温转变过程表示为TTA曲线，包括了奥氏体开始形成、转变完成、剩余碳化物溶解、均匀化的过程。 其特点有： 
 
