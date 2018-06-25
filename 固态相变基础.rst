@@ -117,7 +117,7 @@
 动力学
 ------
 
-设新相形核速率恒为 :math:`\dot{N}` ，形核后以恒定速度 :math:`v` 长成各向同性的球状，晶体体积为 :math:`V` ，则时间 :math:`t` 时，某个孕育时间为 :math:`\tau` 的晶粒体积为 :math:`\frac{4}{3}\pi v(t-\tau)^3` 。而母相中 :math:`\mathrm{d}\tau` 时间内形核数为 :math:`\dot{N}(V-V^\beta)\mathrm{d}\tau` ，则 :math:`\mathrm{d}V^\beta=\frac{4}{3}\pi v(t-\tau)^3\dot{N}(V-V^\beta)\mathrm{d}\tau` 。于是得到 Johnson-Mehl 方程，相变体积分数：
+设新相形核速率恒为 :math:`\dot{N}` ，形核后以恒定速度 :math:`v` 长成各向同性的球状，晶体体积为 :math:`V` ，则时间 :math:`t` 时，某个孕育时间为 :math:`\tau` 的晶粒体积为 :math:`\frac{4}{3}\pi v^3(t-\tau)^3` 。而母相中 :math:`\mathrm{d}\tau` 时间内形核数为 :math:`\dot{N}(V-V^\beta)\mathrm{d}\tau` ，则 :math:`\mathrm{d}V^\beta=\frac{4}{3}\pi v^3(t-\tau)^3\dot{N}(V-V^\beta)\mathrm{d}\tau` 。于是得到 Johnson-Mehl 方程，相变体积分数：
 
 .. math:: f=1-\exp\left(-\frac{\pi}{3}\dot{N}v^3t^4\right)
 
